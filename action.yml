@@ -1,7 +1,6 @@
 name: 'Hello World Muneeb'
 description: 'Simple Hello World action.'
 author: 'Muneeb'
-icon: 'activity'
 runs:
   using: 'node12'
   main: 'index.js'
