@@ -1,0 +1,7 @@
+name: 'Hello World'
+description: 'Simple Hello World action.'
+author: 'Muneeb'
+
+runs:
+  uses: 'node12'
+  main: 'index.js'
