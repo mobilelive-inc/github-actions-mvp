@@ -3,5 +3,5 @@ description: 'Simple Hello World action.'
 author: 'Muneeb'
 icon: 'activity'
 runs:
-  uses: 'node12'
+  using: 'node12'
   main: 'index.js'
