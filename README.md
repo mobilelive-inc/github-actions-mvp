@@ -17,3 +17,7 @@ npm install @actions/core @actions/github
 ![Publish Action](./assets/publish_action.png)
 * Click draft a release button to make a new release and publish it to the github action marketplace.
 
+# How to use github action.
+
+* You can use any public action from the github action marketplace.
+* For reference see this file [hello-world.yaml](https://github.com/mobilelive-inc/github-actions-mvp/blob/main/.github/workflows/hello-world.yaml)
