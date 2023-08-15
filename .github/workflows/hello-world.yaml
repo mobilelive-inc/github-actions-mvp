@@ -23,7 +23,7 @@ jobs:
         
       - name: Hello world action step
         id: hello
-        uses: muneebmughal1/hello-world-action@hello-world-test
+        uses: muneebmughal1/hello-world-action@hello-world-new
         with:
           who-to-greet: 'Muneeb Mughal'
       # Use the output from the `hello` step
