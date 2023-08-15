@@ -1,0 +1,31 @@
+name: Hello-World
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  Hello-World:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+
+      - name: Install dependencies
+        run: npm i
+        
+      - name: Hello world action step
+        id: hello
+        uses: muneebmughal1/hello-world-action@hello-world-test
+        with:
+          who-to-greet: 'Muneeb Mughal'
+      # Use the output from the `hello` step
+      - name: Get the output time
+        run: echo "The time was ${{ steps.hello.outputs.time }}"
