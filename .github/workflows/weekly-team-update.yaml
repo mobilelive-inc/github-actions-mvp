@@ -14,7 +14,7 @@ jobs:
       - name: Create team sync issue
         uses: imjohnbo/issue-bot@v3
         with:
-          assignees: "gsamant"
+          assignees: "ikashifullah"
           labels: "weekly update"
           title: "Weekly Update"
           body: |
